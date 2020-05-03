@@ -57,6 +57,10 @@
 </script>
 
 <style scoped>
+    div {
+        font-family: 'Comfortaa', cursive;
+    }
+
     .amount {
         margin-top: 15px;
         margin-bottom: 10px;
