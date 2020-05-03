@@ -124,12 +124,17 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
+  },
+  created() {
+    fetch('/api/plans')
+            .then(response => {
+              console.log(JSON.parse(response._bodyText));
+            })
   }
 
 }
