@@ -6,6 +6,7 @@ export function makeServer({ environment = "development" } = {}) {
 
         models: {
             plan: Model,
+            payment: Model
         },
 
         seeds(server) {
@@ -24,6 +25,12 @@ export function makeServer({ environment = "development" } = {}) {
                 amount: 85,
                 pecks: ['All Possible Options', 'Unlimited Storage Capacity', 'Sharing, inviting and managing']
             });
+
+            server.create('payment', {
+                code: 0,
+                status: 'success',
+                reason: 'payment successful'
+            })
         },
 
         routes() {
@@ -31,6 +38,14 @@ export function makeServer({ environment = "development" } = {}) {
 
             this.get('/plans', (schema) => {
                 return schema.plans.all();
+            });
+
+            this.post('/subscribe', () => {
+                return {
+                    code: 0,
+                    status: 'success',
+                    reason: 'payment successful'
+                }
             });
         },
     })
