@@ -21,7 +21,7 @@ export function makeServer({ environment = "development" } = {}) {
             });
             server.create('plan', {
                 name: "Super Pro",
-                amount: 25,
+                amount: 85,
                 pecks: ['All Possible Options', 'Unlimited Storage Capacity', 'Sharing, inviting and managing']
             });
         },
