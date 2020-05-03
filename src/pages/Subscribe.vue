@@ -12,7 +12,7 @@
                     something went wrong please try, please try again later!
                 </div>
 
-                <div v-if="success" class="alert alert-danger text-center">
+                <div v-if="success" class="alert alert-success text-center">
                     {{ success_message }}
                 </div>
                 <div class="row">
