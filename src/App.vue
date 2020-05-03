@@ -37,8 +37,8 @@
       <section class="col-11">
         <div class="row">
           <div class="container">
-            <h1>Our Plans</h1>
-            <p>Choose a plan that best fits your requirements!</p>
+            <h1 class="text-center">Our Plans</h1>
+            <p class="text-center text-secondary">Choose a plan that best fits your requirements!</p>
           </div>
         </div>
         <div class="row"></div>
