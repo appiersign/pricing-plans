@@ -9,7 +9,8 @@
         <div class="row mt-5">
             <div class="container">
                 <div class="row">
-                    <router-link to="/subscribe" v-for="(plan, key) in plans" v-bind:key="key" class="col-4 no-decoration" v-bind:class="{'mt-5': key === 0 || key === 2}">
+                    <router-link to="/subscribe" v-for="(plan, key) in plans" v-bind:key="key"
+                                 class="col-4 no-decoration" v-bind:class="{'mt-5': key === 0 || key === 2}">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold text-danger text-center">{{ plan.name
@@ -56,8 +57,25 @@
 </script>
 
 <style scoped>
-.no-decoration {
-    color: black;
-    text-decoration: none;
-}
+    .amount {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .amount-figure {
+        font-size: 90px;
+        font-weight: bolder;
+        height: 70px;
+    }
+
+    .amount-figure > p {
+        height: 90px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .no-decoration {
+        color: black;
+        text-decoration: none;
+    }
 </style>
