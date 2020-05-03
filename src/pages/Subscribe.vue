@@ -94,6 +94,7 @@
                     } else {
                         this.success = true;
                         this.success_message = response.data.reason;
+                        this.payment = {};
                     }
                 })
             }
