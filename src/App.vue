@@ -41,7 +41,35 @@
             <p class="text-center text-secondary mt-3">Choose a plan that best fits your requirements!</p>
           </div>
         </div>
-        <div class="row"></div>
+        <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold text-danger text-center">Beginner</h5>
+                    <hr>
+                    <div class="row">
+                      <div class="amount container text-center d-flex justify-content-center">
+                        <p class="align-self-start">GHS</p>
+                        <p class="d-flex align-self-center amount-figure align-items-center">5</p>
+                        <p class="align-self-end" id="duration">/month</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="container text-center">
+                        <p>Basic Options</p>
+                        <p>1TB Storage</p>
+                        <p>Opportunity to share</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
@@ -76,5 +104,26 @@ export default {
     white-space: nowrap;
     list-style: none;
     margin-bottom: 50px;
+  }
+
+  .amount {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .amount-figure {
+    font-size: 90px;
+    font-weight: bolder;
+    height: 70px;
+  }
+
+  .amount-figure > p {
+    height: 90px;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  #duration {
+    align-items: start;
   }
 </style>
