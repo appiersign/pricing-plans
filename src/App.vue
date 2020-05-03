@@ -67,6 +67,54 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold text-danger text-center">Pro</h5>
+                    <hr>
+                    <div class="row">
+                      <div class="amount container text-center d-flex justify-content-center">
+                        <p class="align-self-start">GHS</p>
+                        <p class="d-flex align-self-center amount-figure align-items-center">25</p>
+                        <p class="align-self-end duration">/month</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="container text-center">
+                        <p>Basic Options</p>
+                        <p>1TB Storage</p>
+                        <p>Opportunity to share</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold text-danger text-center">Super Pro</h5>
+                    <hr>
+                    <div class="row">
+                      <div class="amount container text-center d-flex justify-content-center">
+                        <p class="align-self-start">GHS</p>
+                        <p class="d-flex align-self-center amount-figure align-items-center">85</p>
+                        <p class="align-self-end duration">/month</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="container text-center">
+                        <p>Basic Options</p>
+                        <p>1TB Storage</p>
+                        <p>Opportunity to share</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -123,7 +171,7 @@ export default {
     align-items: center;
   }
 
-  #duration {
+  .duration {
     align-items: start;
   }
 </style>
