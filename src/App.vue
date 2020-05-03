@@ -35,10 +35,10 @@
         </ul>
       </aside>
       <section class="col-11">
-        <div class="row">
-          <div class="container">
+        <div class="row mt-5">
+          <div class="container mt-5">
             <h1 class="text-center">Our Plans</h1>
-            <p class="text-center text-secondary">Choose a plan that best fits your requirements!</p>
+            <p class="text-center text-secondary mt-3">Choose a plan that best fits your requirements!</p>
           </div>
         </div>
         <div class="row"></div>
