@@ -103,5 +103,7 @@
 </script>
 
 <style scoped>
-
+    div {
+        font-family: 'Comfortaa', cursive;
+    }
 </style>

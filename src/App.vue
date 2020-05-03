@@ -44,6 +44,9 @@
 </script>
 
 <style>
+    div {
+        font-family: 'Comfortaa', cursive;
+    }
     aside {
         width: 70px;
         height: 100vh;

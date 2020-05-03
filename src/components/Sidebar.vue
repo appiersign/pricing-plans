@@ -22,5 +22,7 @@
 </script>
 
 <style scoped>
-
+    aside {
+        font-family: 'Comfortaa', cursive;
+    }
 </style>
