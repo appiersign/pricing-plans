@@ -11,6 +11,10 @@
                 <div v-if="error" class="alert alert-danger text-center">
                     something went wrong please try, please try again later!
                 </div>
+
+                <div v-if="success" class="alert alert-danger text-center">
+                    {{ success_message }}
+                </div>
                 <div class="row">
                     <div class="col-8 offset-2 card pt-5">
                         <form @submit.prevent="handlePayment">
