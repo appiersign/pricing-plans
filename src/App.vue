@@ -41,7 +41,7 @@
             <p class="text-center text-secondary mt-3">Choose a plan that best fits your requirements!</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
           <div class="container">
             <div class="row">
               <div class="col-4">
@@ -83,9 +83,9 @@
                     <hr>
                     <div class="row">
                       <div class="container text-center">
-                        <p>Basic Options</p>
-                        <p>1TB Storage</p>
-                        <p>Opportunity to share</p>
+                        <p>General Options</p>
+                        <p>2TB Storage</p>
+                        <p>Opportunity to share and invite users</p>
                       </div>
                     </div>
                   </div>
